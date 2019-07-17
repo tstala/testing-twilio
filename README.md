@@ -29,6 +29,13 @@ export TWILIO_ACCOUNT_SID=''
 export TWILIO_AUTH_TOKEN=''
 ```
 
+If you want to send WhatsApp messages please also include the following env variables
+
+```
+export WHATSAPP_FROM_NUMBER='whatsapp:+1xxxxxxxxx'
+export WHATSAPP_TO_NUMBER='+48xxxxxxxxx'
+```
+
 Next, execute the command to read the environmental variables
 
 ```
