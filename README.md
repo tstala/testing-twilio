@@ -1,5 +1,7 @@
 # twilio-receive-sms-with-no-response
 
+This application prints a Message Sid, From, To and Body of the incoming message sent to Twilio phone number.
+
 ## Usage
 
 Install dependencies
