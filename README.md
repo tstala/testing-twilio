@@ -4,6 +4,8 @@
 
 `twilio-list-messages.js` - this application list all sms messages
 
+`twilio-list-messages-async-await.js` - this application list all sms messages using async/await functions
+
 `twilio-remove-messages.js` - removes oldest two messages per each application run
 
 `twilio-whatsapp-send-message.js` - application to send message using Twilio Sandbox for WhatsApp
