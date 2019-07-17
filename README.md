@@ -6,6 +6,8 @@
 
 `twilio-remove-messages.js` - removes oldest two messages per each application run
 
+`twilio-whatsapp-send-message.js` - application to send message using Twilio Sandbox for WhatsApp
+
 ## Usage
 
 Install dependencies
