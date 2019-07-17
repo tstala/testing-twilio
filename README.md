@@ -1,6 +1,10 @@
-# twilio-receive-sms-with-no-response
+# testing-twilio
 
-This application prints a Message Sid, From, To and Body of the incoming message sent to Twilio phone number.
+`twilio-receive-sms-with-no-response.js` - this application prints a Message Sid, From, To and Body of the incoming message sent to Twilio phone number.
+
+`twilio-list-messages.js` - this application list all sms messages
+
+`twilio-remove-messages.js` - removes oldest two messages per each application run
 
 ## Usage
 
@@ -16,3 +20,17 @@ Configure `A MESSAGE COMES IN` option under `Phone Numbers / Manage Numbers / Ac
 http://localhost:3000/message
 ```
 
+Create `twilio.env` file where you are supposed to copy paste your Twilio Accound Sid and Auth Token
+
+```
+cat twilio.env
+--
+export TWILIO_ACCOUNT_SID=''
+export TWILIO_AUTH_TOKEN=''
+```
+
+Next, execute the command to read the environmental variables
+
+```
+source ./twilio.env
+```
